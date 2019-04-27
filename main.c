@@ -84,7 +84,7 @@ int main(void)
     init_system();
 
     /* Splash screen */
-    SSD1306_drawBitmap(0, 0, kicon_logo, 128, 32);
+    SSD1306_drawBitmap(0, 0, logo, 128, 32);
     SSD1306_drawBufferDMA();
 
     /* wait ~3s or till a button is pressed */
